@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Virtual.MVC.CPM.Domains\Virtual.MVC.CPM.Domains.csproj" />
+    <ProjectReference Include="..\Virtual.MVC.CPM.Models\Virtual.MVC.CPM.Models.csproj" />
+    <ProjectReference Include="..\Virtual.MVC.CPM.Packages\Virtual.MVC.CPM.Packages.csproj" />
+  </ItemGroup>
+
+</Project>
